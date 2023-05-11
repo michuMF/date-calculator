@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="main-flex">
+
+      <section class="date">
+        <div class="date-flex">
+          <p class="label-day">Day</pc>
+            <input type="number" class="input-day" placeholder="DD" value="">
+          <p class="error day hidden"></p>
+        </div>
+
+        <div class="date-flex">
+          <p class="label-month"> Month</p>
+          <input type="number" class="input-month" placeholder="MM" value="">
+          <p class="error month hidden">The filled is required</p>
+        </div>
+        <div class="date-flex">
+          <p class="label-year"> Year</p>
+          <input type="number" class="input-year" placeholder="YYYY" value="">
+          <p class="error year hidden">The filled is required</p>
+        </div>
+      </section>
+      <section class="partition">
+
+        <hr class="stright-line">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="66" viewBox="0 0 46 44">
+          <g fill="none" stroke="hsl(0, 0%, 100%)" stroke-width="2">
+            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+          </g>
+        </svg>
+        <hr class="stright-line2">
+      </section>
+      <section class="when-it-was">
+
+        <div class="when-it-was-flex">
+          <h2 class="calculate-year"> -- </h2>
+          <h1> years</h1>
+        </div>
+        <div class="when-it-was-flex">
+          <h2 class="calculate-month"> -- </h2>
+
+          <h1> months</h1>
+
+
+        </div>
+        <div class="when-it-was-flex">
+          <h2 class="calculate-day"> -- </h2>
+          <h1> days</h1>
+        </div>
+
+      </section>
+    </div>
+
+
+
+
+
+
+
+  </main>
+  <script src="script.js"></script>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
